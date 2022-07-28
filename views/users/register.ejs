@@ -1,0 +1,53 @@
+<% layout('layouts/boilerplate') %>
+<div class="container justify-content-center align-items-center mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+      <div class="card-shadow">
+        <img alt="" class="card-img-top" src="https://www.tripsavvy.com/thmb/DlrYhJZqt0XjMUyrRbdooG7AI_Q=/1414x1414/smart/filters:no_upscale()/campsite5-bde7fa2945cd45ef994556195fc43e7f.jpg" >
+        <div class="card-body">
+
+
+
+          <h5 class="card-title mb-3"> Register New User</h5>
+          <form action="/register" method="POST" class="validated-form" novalidate>
+              <div class="mb-3">
+                  <label class="form-label" for ="username">Username</label>
+                  <input class="form-control" type="text" id="username" name="username" autofocus required>
+                  <div class="valid-feedback">
+                    Looks Good
+                  </div>
+              </div>
+          
+              <div class="mb-3">
+                  <label class="form-label" for ="email">Email</label>
+                  <input class="form-control" type="email" id="email" name="email" required>
+                  <div class="valid-feedback">
+                    Looks Good
+                  </div>
+              </div>
+          
+              <div class="mb-3">
+                  <label class="form-label" for ="password">Password</label>
+                  <input class="form-control" type="password" id="password" name="password" required>
+                  <div class="valid-feedback">
+                    Looks Good
+                  </div>
+              </div>
+              
+              <div class="d-grid">
+                <button class="btn btn-success mb-5">Register</button>
+              </div>
+              
+          </form>
+
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+

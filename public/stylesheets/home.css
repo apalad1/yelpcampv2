@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    z-index: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+    url(https://www.worldatlas.com/r/w1200/upload/1c/2b/66/shutterstock-149198729-2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.05rem 0.1rem rgba(130, 98, 98, 0.1);
+}
+
+.cover-container {
+    max-width: 60vw;
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+    color: rgba(255,255,255,0.5);
+    border-bottom-color:rgba(255,255,255,0.5);
+}
+
+.btn-secondary, .btn-secondary:hover{
+    color: #333;
+    text-shadow: none;
+}
+
+.btn-sample { 
+    color: #ffffff; 
+    background-color: #238caf; 
+    border-color: #0e4e68; 
+  } 
+

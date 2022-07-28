@@ -1,0 +1,15 @@
+
+/* sets max allowable height for the image to fit into the .holder div*/
+.wow{
+    max-height: 400px;
+}
+
+/* sets the height for the div that holds the images, doesnt change
+so that different sized images wont keep bumping text up and down*/
+.holder{
+    height:400px;
+}
+
+.holderIndex{
+    max-height:400px;
+}

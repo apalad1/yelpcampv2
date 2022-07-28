@@ -1,0 +1,41 @@
+<% layout('layouts/boilerplate')%>
+    <h1>All Campgrounds</h1>
+   <div class="mb-4"></div>
+
+    <% for (let campground of campgrounds) {%>
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="holderIndex">
+                        <% if(campground.images.length) { %>
+                            <img class="wow w-100" alt="" src="<%=campground.images[0].url%>">
+                        <% } else { %>
+                            <img class="img-fluid" alt="" src="https://us.123rf.com/450wm/koblizeek/koblizeek1902/koblizeek190200055/125337077-no-image-vector-symbol-missing-available-icon-no-gallery-for-this-moment-.jpg?ver=6">
+                        <% } %>
+                    </div>
+                   
+                        
+                </div>
+
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%=campground.title%>
+                        </h5>
+                        <p class="card-text">
+                            <%=campground.description%>
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <%=campground.location%>
+                            </small>
+                        </p>
+                        <a class="btn btn-primary" href="/campgrounds/<%=campground._id%>">
+                            View <%=campground.title%>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <% }%>
+        
