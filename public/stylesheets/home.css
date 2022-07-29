@@ -38,7 +38,8 @@ body {
 
 .btn-sample { 
     color: #ffffff; 
-    background-color: #de9d2c; 
+    /*background-color: #de9d2c; */
+    background-color: #961998;
     border-color: #843c0f; 
   } 
 
