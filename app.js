@@ -25,7 +25,7 @@ const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 const { serializeUser } = require('passport');
 
-const MongoDBStore = require('connect-mongo')(session);
+const MongoDBStore = require("connect-mongo")(session);
 
 //const dbUrl = process.env.DB_URL <-only use it for when deploying
 //
@@ -179,7 +179,7 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render('error', { err })
 })
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000
 app.listen(port, () => {
     console.log(`Serving on port ${port}`)
 })
