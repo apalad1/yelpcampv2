@@ -129,7 +129,8 @@ app.use(
                 "https://res.cloudinary.com/aleck/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT!
                 "https://images.unsplash.com/",
                 "https://www.collinsdictionary.com/",
-                "https://www.worldatlas.com/r/w1200/upload/1c/2b/66/shutterstock-149198729-2.jpg"
+                "https://www.tripsavvy.com/thmb/DlrYhJZqt0XjMUyrRbdooG7AI_Q=/1414x1414/smart/filters:no_upscale()/campsite5-bde7fa2945cd45ef994556195fc43e7f.jpg",
+                "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/camping-ideas-1561136670.jpg"
             ],
             fontSrc    : [ "'self'", ...fontSrcUrls ],
             mediaSrc   : [ "https://res.cloudinary.com/aleck/" ],

@@ -2,7 +2,7 @@ body {
     height: 100vh;
     z-index: 1;
     background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url(https://www.worldatlas.com/r/w1200/upload/1c/2b/66/shutterstock-149198729-2.jpg);
+    url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/camping-ideas-1561136670.jpg);
     background-size: cover;
     background-position: center;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.1);
@@ -11,6 +11,11 @@ body {
 
 .cover-container {
     max-width: 60vw;
+}
+
+.colorTitle {
+    
+    font-size: 55px;
 }
 
 .nav-link {
@@ -33,7 +38,7 @@ body {
 
 .btn-sample { 
     color: #ffffff; 
-    background-color: #238caf; 
-    border-color: #0e4e68; 
+    background-color: #de9d2c; 
+    border-color: #843c0f; 
   } 
 
